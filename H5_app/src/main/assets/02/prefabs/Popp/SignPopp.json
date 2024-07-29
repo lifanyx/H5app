@@ -1,0 +1,366 @@
+{
+    "type": "Sprite",
+    "props": {
+        "y": 0,
+        "x": 0,
+        "width": 750,
+        "presetID": 1,
+        "isPresetRoot": true,
+        "height": 1334
+    },
+    "compId": 121,
+    "child": [{
+            "type": "Image",
+            "props": {
+                "y": 336,
+                "x": 52,
+                "skin": "common/window_2.png",
+                "sizeGrid": "132,79,87,113",
+                "presetID": 4,
+                "height": 680
+            },
+            "compId": 124
+        }, {
+            "type": "Button",
+            "props": {
+                "y": 353,
+                "x": 600,
+                "visible": false,
+                "stateNum": 1,
+                "skin": "common/window_cancel.png",
+                "presetID": 6,
+                "name": "close_btn"
+            },
+            "compId": 126
+        }, {
+            "type": "Image",
+            "props": {
+                "y": 458,
+                "x": 98,
+                "skin": "daily/daily_1.png",
+                "presetID": 7,
+                "name": "day_1"
+            },
+            "compId": 127,
+            "child": [{
+                    "type": "Text",
+                    "props": {
+                        "y": 8,
+                        "x": 47,
+                        "text": "day one",
+                        "presetID": 16,
+                        "fontSize": 20,
+                        "font": "Arial",
+                        "color": "#ffffff",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 136
+                }, {
+                    "type": "Text",
+                    "props": {
+                        "y": 135,
+                        "x": 27,
+                        "width": 100,
+                        "text": "+1000",
+                        "presetID": 17,
+                        "name": "gold_award",
+                        "fontSize": 20,
+                        "font": "Arial",
+                        "color": "#ffffff",
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 137
+                }
+            ]
+        }, {
+            "type": "Image",
+            "props": {
+                "y": 458,
+                "x": 298,
+                "skin": "daily/daily_1.png",
+                "presetID": 12,
+                "name": "day_2"
+            },
+            "compId": 132,
+            "child": [{
+                    "type": "Text",
+                    "props": {
+                        "y": 8,
+                        "x": 47,
+                        "text": "day two",
+                        "presetID": 18,
+                        "fontSize": 20,
+                        "font": "Arial",
+                        "color": "#ffffff",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 138
+                }, {
+                    "type": "Text",
+                    "props": {
+                        "y": 135,
+                        "x": 27,
+                        "width": 100,
+                        "text": "+1000",
+                        "presetID": 19,
+                        "name": "gold_award",
+                        "fontSize": 20,
+                        "font": "Arial",
+                        "color": "#ffffff",
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 139
+                }
+            ]
+        }, {
+            "type": "Image",
+            "props": {
+                "y": 458,
+                "x": 500,
+                "skin": "daily/daily_1.png",
+                "presetID": 11,
+                "name": "day_3"
+            },
+            "compId": 131,
+            "child": [{
+                    "type": "Text",
+                    "props": {
+                        "y": 8,
+                        "x": 47,
+                        "text": "day three",
+                        "presetID": 20,
+                        "fontSize": 20,
+                        "font": "Arial",
+                        "color": "#ffffff",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 140
+                }, {
+                    "type": "Text",
+                    "props": {
+                        "y": 135,
+                        "x": 27,
+                        "width": 100,
+                        "text": "+1000",
+                        "presetID": 21,
+                        "name": "gold_award",
+                        "fontSize": 20,
+                        "font": "Arial",
+                        "color": "#ffffff",
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 141
+                }
+            ]
+        }, {
+            "type": "Image",
+            "props": {
+                "y": 646,
+                "x": 98,
+                "skin": "daily/daily_1.png",
+                "presetID": 13,
+                "name": "day_4"
+            },
+            "compId": 133,
+            "child": [{
+                    "type": "Text",
+                    "props": {
+                        "y": 8,
+                        "x": 47,
+                        "text": "day four",
+                        "presetID": 22,
+                        "fontSize": 20,
+                        "font": "Arial",
+                        "color": "#ffffff",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 142
+                }, {
+                    "type": "Text",
+                    "props": {
+                        "y": 135,
+                        "x": 27,
+                        "width": 100,
+                        "text": "+1000",
+                        "presetID": 23,
+                        "name": "gold_award",
+                        "fontSize": 20,
+                        "font": "Arial",
+                        "color": "#ffffff",
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 143
+                }
+            ]
+        }, {
+            "type": "Image",
+            "props": {
+                "y": 646,
+                "x": 298,
+                "skin": "daily/daily_1.png",
+                "presetID": 14,
+                "name": "day_5"
+            },
+            "compId": 134,
+            "child": [{
+                    "type": "Text",
+                    "props": {
+                        "y": 8,
+                        "x": 47,
+                        "text": "day five",
+                        "presetID": 24,
+                        "fontSize": 20,
+                        "font": "Arial",
+                        "color": "#ffffff",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 144
+                }, {
+                    "type": "Text",
+                    "props": {
+                        "y": 135,
+                        "x": 27,
+                        "width": 100,
+                        "text": "+1000",
+                        "presetID": 25,
+                        "name": "gold_award",
+                        "fontSize": 20,
+                        "font": "Arial",
+                        "color": "#ffffff",
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 145
+                }
+            ]
+        }, {
+            "type": "Image",
+            "props": {
+                "y": 646,
+                "x": 500,
+                "skin": "daily/daily_1.png",
+                "presetID": 15,
+                "name": "day_6"
+            },
+            "compId": 135,
+            "child": [{
+                    "type": "Text",
+                    "props": {
+                        "y": 8,
+                        "x": 47,
+                        "text": "day six",
+                        "presetID": 26,
+                        "fontSize": 20,
+                        "font": "Arial",
+                        "color": "#ffffff",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 146
+                }, {
+                    "type": "Text",
+                    "props": {
+                        "y": 135,
+                        "x": 27,
+                        "width": 100,
+                        "text": "+1000",
+                        "presetID": 27,
+                        "name": "gold_award",
+                        "fontSize": 20,
+                        "font": "Arial",
+                        "color": "#ffffff",
+                        "align": "center",
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 147
+                }
+            ]
+        }, {
+            "type": "Text",
+            "props": {
+                "y": 367,
+                "x": 320,
+                "text": "Sign in",
+                "presetID": 5,
+                "fontSize": 40,
+                "font": "Arial",
+                "color": "#B295E6",
+                "runtime": "Laya.Text"
+            },
+            "compId": 125
+        }, {
+            "type": "Button",
+            "props": {
+                "y": 1111,
+                "x": 376,
+                "width": 294,
+                "stateNum": 1,
+                "skin": "common/button_green.png",
+                "sizeGrid": "27,30,31,27",
+                "presetID": 28,
+                "pivotY": 54,
+                "pivotX": 147,
+                "name": "confirm_btn",
+                "labelSize": 35,
+                "labelFont": "Arial",
+                "labelBold": false,
+                "label": "claim",
+                "height": 108
+            },
+            "compId": 148
+        }, {
+            "type": "Button",
+            "props": {
+                "y": 891,
+                "x": 225,
+                "width": 0,
+                "stateNum": 1,
+                "skin": "",
+                "sizeGrid": "30,26,33,30",
+                "presetID": 30,
+                "name": "super_confirm_btn",
+                "height": 108
+            },
+            "compId": 150,
+            "child": [{
+                    "type": "Sprite",
+                    "props": {
+                        "y": 29,
+                        "x": 27,
+                        "texture": "",
+                        "presetID": 31,
+                        "name": "super_select"
+                    },
+                    "compId": 151
+                }, {
+                    "type": "Text",
+                    "props": {
+                        "y": 36.5,
+                        "x": 80,
+                        "text": "",
+                        "presetID": 32,
+                        "name": "btnTip",
+                        "fontSize": 33,
+                        "font": "Arial",
+                        "color": "#000000",
+                        "bold": true,
+                        "runtime": "Laya.Text"
+                    },
+                    "compId": 152
+                }
+            ]
+        }, {
+            "type": "Script",
+            "props": {
+                "presetID": 33,
+                "runtime": "popp/SignPopp.ts"
+            },
+            "compId": 154
+        }
+    ],
+    "loadList": ["common/window_2.png", "common/window_cancel.png", "daily/daily_1.png", "common/button_green.png", "common/button_purple.png", "offline_speedup/video.png"],
+    "loadList3D": []
+}

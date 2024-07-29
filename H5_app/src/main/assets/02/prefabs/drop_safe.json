@@ -1,0 +1,1 @@
+{"type":"Image","props":{"y":0,"x":0,"width":90,"presetID":1,"pivotY":90,"pivotX":45,"isPresetRoot":true,"height":90},"compId":470,"child":[{"type":"Sprite","props":{"texture":"battle/safe_box.png","presetID":2,"name":"drop_icon"},"compId":471},{"type":"Script","props":{"presetID":3,"runtime":"equit/DropSafe.ts"},"compId":475}],"loadList":["battle/safe_box.png"],"loadList3D":[]}

@@ -1,0 +1,1 @@
+{"type":"Sprite","props":{"y":0,"x":0,"width":30,"texture":"common/gold_max.png","presetID":1,"isPresetRoot":true,"height":30,"alpha":1},"compId":111,"child":[{"type":"Script","props":{"presetID":3,"runtime":"eff/GoldEfff.ts"},"compId":113}],"loadList":["common/gold_max.png"],"loadList3D":[]}

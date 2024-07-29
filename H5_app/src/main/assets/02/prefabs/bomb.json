@@ -1,0 +1,1 @@
+{"type":"Sprite","props":{"y":0,"x":0,"presetID":1,"pivotY":19,"pivotX":21,"isPresetRoot":true},"compId":90,"child":[{"type":"SkeletonPlayer","props":{"y":11,"x":8,"url":"dragonbone/grenade.sk","presetID":4,"runtime":"Laya.Skeleton"},"compId":97},{"type":"Script","props":{"presetID":2,"runtime":"equit/Bomb.ts"},"compId":91}],"loadList":["dragonbone/grenade.sk"],"loadList3D":[]}

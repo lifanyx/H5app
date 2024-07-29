@@ -1,0 +1,1 @@
+{"type":"Sprite","props":{"width":50,"presetID":1,"pivotY":10,"pivotX":25,"isPresetRoot":true},"compId":439,"child":[{"type":"SkeletonPlayer","props":{"y":7,"x":25,"url":"dragonbone/RPG.sk","presetID":4,"runtime":"Laya.Skeleton"},"compId":446},{"type":"Script","props":{"presetID":2,"runtime":"equit/Rocket.ts"},"compId":441}],"loadList":["dragonbone/RPG.sk"],"loadList3D":[]}

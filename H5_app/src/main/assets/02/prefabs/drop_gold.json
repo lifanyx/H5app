@@ -1,0 +1,1 @@
+{"type":"Image","props":{"y":0,"x":0,"width":50,"presetID":1,"pivotY":52,"pivotX":25,"isPresetRoot":true,"height":52},"compId":473,"child":[{"type":"Sprite","props":{"texture":"common/gold_max.png","presetID":2,"name":"drop_icon"},"compId":474},{"type":"Script","props":{"presetID":3,"runtime":"equit/DropGold.ts"},"compId":476}],"loadList":["common/gold_max.png"],"loadList3D":[]}
