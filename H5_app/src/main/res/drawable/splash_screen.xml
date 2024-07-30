@@ -1,0 +1,10 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <color android:color="@android:color/white"/> <!-- 背景色 -->
+    </item>
+    <item>
+        <bitmap
+                android:src="@drawable/image_launcher"
+                android:gravity="center"/>
+    </item>
+</layer-list>
