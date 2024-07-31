@@ -4,8 +4,11 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
+import android.view.View;
 import android.util.Log;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 import com.github.lzyzsd.jsbridge.BridgeWebView;
 import com.github.lzyzsd.library.BuildConfig;
@@ -20,10 +23,11 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
     private BridgeWebView webView;
     private AdView bannerAdView;
+    private ImageView splashScreen;
     private RewardedAd rewardedAd;
     private InterstitialAd interstitialAd;
     private boolean isMobileAdsInitialized = false;
-    private final String url = "file:///android_asset/02/index.html";
+    private final String url = "file:///android_asset/03/index.html";
 
     private static final String REAL_BANNER_AD_UNIT_ID = "ca-app-pub-3940256099942544/9214589741";
     private static final String REAL_REWARDED_AD_UNIT_ID = "ca-app-pub-3940256099942544/5224354917";
@@ -36,9 +40,20 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         //Preview Window设置的背景图如果不做处理，图片就会一直存在于内存中
         getWindow().setBackgroundDrawable(null);
-//        getWindow().setBackgroundDrawableResource(android.R.color.transparent);
+        getWindow().setBackgroundDrawableResource(android.R.color.transparent);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // 查找视图
+        splashScreen = findViewById(R.id.splash_screen);
+        // 模拟内容加载过程，可以根据实际需要修改
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                // 内容加载完毕，移除启动图
+                splashScreen.setVisibility(View.GONE);
+            }
+        }, 4000); // 3秒后移除启动图，可根据实际加载时间调整
 
         setupWebView();
         setupBannerAdView();

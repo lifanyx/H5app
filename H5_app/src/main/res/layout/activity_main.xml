@@ -24,6 +24,12 @@
             android:layout_height="match_parent">
 
         <!-- 其他布局元素 -->
+        <ImageView
+                android:id="@+id/splash_screen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/splash_screen"/>
 
         <!-- 广告容器 -->
         <FrameLayout
